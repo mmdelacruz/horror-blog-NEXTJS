@@ -1,0 +1,21 @@
+.img{
+    margin-bottom: rem(30px);
+    height: rem(450px);
+    width: auto;
+    object-fit: contain;
+    border-radius: rem(5px);
+
+    @media (max-width: $mantine-breakpoint-sm) {
+        max-width: 100%;
+        height:rem(350px);
+      }
+}
+
+.link{
+  text-decoration: none;
+  color: var(--mantine-color-blue-filled);
+}
+
+.notIA{
+  color: var(--mantine-color-green-3);
+}
